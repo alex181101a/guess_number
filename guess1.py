@@ -1,6 +1,7 @@
 import random
-
-r = random.randint(1, 20)
+min = input('請輸入最小範圍')
+max = input('請輸入最大範圍')
+r = random.randint(int(min), int(max))
 print(r)
 times = 0
 while True:
@@ -22,4 +23,5 @@ while True:
 	else:
 		print('Too small!')
 		times = times + 1
+	print('這是第', times, '次')
 
