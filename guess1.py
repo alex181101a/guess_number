@@ -1,7 +1,7 @@
 import random
-min = input('請輸入最小範圍')
+min = input('請輸入最小範圍')   #input 為字串
 max = input('請輸入最大範圍')
-r = random.randint(int(min), int(max))
+r = random.randint(int(min), int(max))   #字串轉整數
 print(r)
 times = 0
 while True:
